@@ -2,10 +2,8 @@ package Main;
 
 import Utilities.CarroCompra;
 public class Main {
-
-	public void main() {
-		// TODO - implement Main.main
-		throw new UnsupportedOperationException();
+	public static void main(String[] args) {
+		CarroCompra carroCompra  = new CarroCompra();
+		carroCompra.MostrarTotal();
 	}
-
 }
